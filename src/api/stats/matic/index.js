@@ -34,7 +34,7 @@ import { getPolywiseApys } from './getPolywiseApys';
 import { getTetuApys } from './getTetuApys';
 
 const getApys = [
-  getComethLpApys,
+  /*  getComethLpApys,
   getQuickLpApys,
   getAaveApys,
   getSushiLpApys,
@@ -44,13 +44,13 @@ const getApys = [
   getCurveApys,
   getPolycatApys,
   getWexPolyApys,
-  getApeLpApys,
-  getPolypupApys,
+  getApeLpApys, */
+  //  getPolypupApys,
   // getPolyQuityLpApys,
   // get50kLpApys,
-  getDfynLpApys,
+  /*  getDfynLpApys,
   getDfynDualFarmLpApys,
-  getBoneSwapApys,
+  // getBoneSwapApys,
   getMaiApys,
   getJetswapApys,
   getIronSwapApys,
@@ -67,7 +67,7 @@ const getApys = [
   getSandmanApys,
   getPolyAlphaApys,
   getPolywiseApys,
-  getTetuApys,
+  getTetuApys, */
 ];
 
 const BATCH_SIZE = 15;

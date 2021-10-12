@@ -46,7 +46,7 @@ const getElkApys = require('./elk/getElkApys');
 const getBifiMaxiV2Apy = require('./beefy/getBifiMaxiV2Apy');
 
 const getApys = [
-  getTianguisLpApys,
+  getTianguisLpApys /* 
   get1inchLpApys,
   get1inchApy,
   getAlpacaApys,
@@ -91,7 +91,7 @@ const getApys = [
   getTosdisLpApys,
   getVenusApys,
   getWaultLpApys,
-  getYelApys,
+  getYelApys, */,
 ];
 // ^^ APYs are sorted alphabetically
 

@@ -11,7 +11,7 @@ const getBlockNumber = require('../../../../utils/getBlockNumber');
 
 const getTianguisLpApys = async () => {
   let apys = {};
-  const masterchef = '0xFd0Dd713048E911630A7dB824857637d31A675b7';
+  const masterchef = '0x5785FcAa31aBeba6cEA0e360C899c148FcE9476A';
 
   let promises = [];
   pools.forEach(pool => promises.push(getPoolApy(masterchef, pool)));
@@ -31,6 +31,7 @@ const getPoolApy = async (masterchef, pool) => {
   ]);
   const simpleApy = yearlyRewardsInUsd.dividedBy(totalStakedInUsd);
   const apy = compound(simpleApy, BASE_HPY, 1, 0.955);
+  console.log('get pool apy', totalStakedInUsd.toString(), simpleApy.toString(), apy.toString());
   return { [pool.name]: apy };
 };
 

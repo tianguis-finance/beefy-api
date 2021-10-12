@@ -19,6 +19,9 @@ const getTotalStakedInUsd = async (
   const totalStaked = new BigNumber(await tokenContract.methods.balanceOf(targetAddr).call());
   const tokenPrice = await fetchPrice({ oracle, id: oracleId });
 
+  if (tokenAddr.toString() == '0xa36c4c7d11732681e58cbb7b8716acb8871ec4c3') {
+    console.log('get total staked in usd', tokenAddr, targetAddr, totalStaked.toString());
+  }
   return totalStaked.times(tokenPrice).dividedBy(decimals);
 };
 

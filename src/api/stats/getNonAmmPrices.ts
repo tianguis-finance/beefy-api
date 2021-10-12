@@ -16,7 +16,7 @@ const getNonAmmPrices = async tokenPrices => {
   let prices = {};
 
   const promises = [
-    getBeltPrices(tokenPrices),
+    /*  getBeltPrices(tokenPrices),
     getEllipsisPrices(),
     getSnob3PoolPrice(),
     getFroyoPrices(),
@@ -26,7 +26,7 @@ const getNonAmmPrices = async tokenPrices => {
     getCurveArbitrumPrices(tokenPrices),
     getDopplePrices(),
     getIronSwapPrices(),
-    getAlpacaIbPrices(tokenPrices),
+    getAlpacaIbPrices(tokenPrices), */
   ];
 
   // Setup error logs
