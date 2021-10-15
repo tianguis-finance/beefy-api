@@ -1,9 +1,81 @@
 [
   {
+    "name": "tianguis-morralla-ada",
+    "address": "0xeb8967533572027a337961690adc3e5fb2f9fccc",
+    "decimals": "1e18",
+    "poolId": 7,
+    "lp0": {
+      "address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+      "oracle": "tokens",
+      "oracleId": "ADA",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xadcBAEbaac0f775923eBDFb6B904399DA8801275",
+      "oracle": "tokens",
+      "oracleId": "MORRALLA",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "tianguis-morralla-btc",
+    "address": "0xb1827e26d37a04b6b73851dc0a891ece8e414c42",
+    "decimals": "1e18",
+    "poolId": 6,
+    "lp0": {
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "oracle": "tokens",
+      "oracleId": "BTC",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xadcBAEbaac0f775923eBDFb6B904399DA8801275",
+      "oracle": "tokens",
+      "oracleId": "MORRALLA",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "tianguis-morralla-eth",
+    "address": "0xAA4C6f6d60F1E52eA9dF8dcE98860eF6E5FC1f36",
+    "decimals": "1e18",
+    "poolId": 5,
+    "lp0": {
+      "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "oracle": "tokens",
+      "oracleId": "ETH",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xadcBAEbaac0f775923eBDFb6B904399DA8801275",
+      "oracle": "tokens",
+      "oracleId": "MORRALLA",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "tianguis-morralla-xrp",
+    "address": "0x3140efe2f611c8391e39e3179e50c59a74731371",
+    "decimals": "1e18",
+    "poolId": 3,
+    "lp0": {
+      "address": "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+      "oracle": "tokens",
+      "oracleId": "XRP",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xadcBAEbaac0f775923eBDFb6B904399DA8801275",
+      "oracle": "tokens",
+      "oracleId": "MORRALLA",
+      "decimals": "1e18"
+    }
+  },
+  {
     "name": "tianguis-morralla-bnb",
     "address": "0xe54b765983fc0a2e15943a5d9fc8b1af7bbc9aa6",
     "decimals": "1e18",
-    "poolId": 2,
+    "poolId": 1,
     "lp0": {
       "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
       "oracle": "tokens",
